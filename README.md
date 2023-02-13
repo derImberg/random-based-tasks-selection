@@ -15,14 +15,19 @@ jede Aufgabe zufällig gewählt werden.
 
 ## Wie wird das Tool gestartet?
 
-Nutze entweder eine IDE deiner Wahl (z.B. Pycharm) oder starte das Tool über die Konsole:
+Nutze entweder eine IDE deiner Wahl (z.B. Pycharm) oder starte das Tool über die Konsole.
+Überprüfe welche Python Version installiert ist oder lade die aktuelle Python Version herunter:
 
 `python<Versionsnummer> random-based-tasks-selection.py`
 
-Achte darauf, dass die notwendigen Pakete installiert sind:
-```python 
-import tkinter as tk
-import pandas as pd
-import random
-```
+Achte darauf, dass die notwendigen Pakete installiert sind. Falls nicht, kopiere folgenden Befehl
+in die Konsole:
+* Für tkinter: pip install tk
+* Für pandas: pip install pandas
+
+Solltest du die Anaconda-Distribution nutzen:
+* Für tkinter: conda install -c anaconda tk
+* Für pandas: conda install -c anaconda pandas
+
+
 
